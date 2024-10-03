@@ -62,6 +62,6 @@ git push
 ### 11. Os pasos a seguir para subir o arquivo que estás editando e o arquivo readme2.md
 Podo facer o mesmo que o **paso 10** ou mediante o **Virtual Studio Code**, sendo esta última opción a mais sinxela xa que so é darlle ao botón de commit e sincronizar.
 ### 12. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
-...
+Descargando o repositorio remoto á miña máquina en local e alí comparar os dous contenedores ( o local no que estaba a traballar e o remoto que acabo de baixar de remoto, que non ten aínda os cambios). Os comparo e saen as diferencias.
 
 
