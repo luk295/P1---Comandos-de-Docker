@@ -1,3 +1,5 @@
+# Práctica 1 - Comandos de Docker.
+## Traballando con GIT, VSC e Docker.
 ### 1. Descargar e comprobar que unha imaxe está no teu equipo
 
 Creo unha imaxe de Ubuntu con Docker co comando: `docker run -it ubuntu`
@@ -13,7 +15,7 @@ Creo un contenedor coa imaxe ubuntu e o nomeo 'u1' co seguinte comando: `docker 
 Accedo a él con : `docker attach u1`
 ### 4. Comproba a súa ip e fai ping a google.com
 >[!TIP]
-> Seguramente non tenias os comandos bash basicos coma min, polo que igual eu fixen, primero teras que insatalar os comandos: 
+> Seguramente non tiñas os comandos bash básicos, coma min, polo que igual eu fixen, primeiro terás que insatalar os comandos: 
 ```
 apt-get update && apt-get install -y iputils-ping 
 apt install iproute2
@@ -26,13 +28,13 @@ apt install iproute2
 Creo o contenedor bono: `docker run --name bono -it ubuntu bash`
 
 Primero para coñecer se fan ping, preciso saber as súas ip.
-Lembrar que **hai que instalar os comandos bash** basicos pero ahora para este contenedor:
+Lembrar que **hai que instalar os comandos bash** básicos pero ahora para este contenedor:
 ```
 apt-get update && apt-get install -y iputils-ping 
 apt install iproute2
 ```
 
-Nun contenedor, por exemplo o 'u1', fago `ip a` para saber a sua dirección ip; e noutro contenedor, 'bono',fago `ip a` para conecer a direccion do contenedor correspondente.
+Nun contenedor, por exemplo o 'u1', fago `ip a` para saber a sua dirección ip; e noutro contenedor, 'bono',fago `ip a` para conecer a dirección do contenedor correspondente.
 
 `ping a` e mais a direccion ip do contenedor obxectivo.
 
@@ -46,7 +48,7 @@ Ocupa 47.6 MB cada contenedor. **95.2 MB en total de espacio en disco.**
 ### 8. Cánta RAM ocupan os contenedores? Crea varios para calculalo
 Co comando `docker stats` , vexo os recursos utilizados de todos os contenedores.
 
-Ai pode verse a RAM utilizada e o porcentaxe que representa.
+Aí pode verse a RAM utilizada e o porcentaxe que representa.
 ### 9. Cómo fixeches para clonar o repositorio
 Con `git clone https://github.com/luk295/P1---Comandos-de-Docker.git`
 ### 10. Cómo engades o arquivo readme2.md
@@ -58,7 +60,7 @@ git commit -m "mensaje"
 git push
 ```
 ### 11. Os pasos a seguir para subir o arquivo que estás editando e o arquivo readme2.md
-Podo facer o mesmo que o **paso 10** ou mediante o **Virtual Studio Code**, sendo esta ultima opcion a mais sinxela xa que so e darlle ao boton de commit e sincronizar.
+Podo facer o mesmo que o **paso 10** ou mediante o **Virtual Studio Code**, sendo esta última opción a mais sinxela xa que so é darlle ao botón de commit e sincronizar.
 ### 12. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
 ...
 
