@@ -6,12 +6,11 @@ Para comprobar que unha imaxe está no meu equivo escribo o comando: `docker ima
 ### 2. Crear un contenedor sen nome, queda arrincado?, cómo obtés o nome?
 >[!NOTE]
 >Non sei como facelo sen nome xa que Docker asignasello automaticamente.
-
 >Podo ver o nome co comando: `docker ps`
 ### 3. Crea un contenedor coo nome 'u1', cómo accedes a el?
 Creo un contenedor coa imaxe ubuntu e o nomeo 'u1' co seguinte comando: `docker run --name u1 -it ubuntu bash` 
 
-e accedo a él con : `docker start u1`
+Accedo a él con : `docker start u1`
 ### 4. Comproba a súa ip e fai ping a google.com
 >[!TIP]
 > Seguramente non tenias os comandos bash basicos coma min, polo que igual eu fixen, primero teras que insatalar os comandos: 
@@ -20,6 +19,7 @@ e accedo a él con : `docker start u1`
 `apt install iproute2`
 ```
 >Comando ping e ip, respectivamente.
+
 **Despois fago ping a google.com co comando `ping google.com`. E sí, fai ping a Google.com**
 
 ### 5. Crea un contenedor coo nome 'bono', pódes facer ping entre os contenedores?
