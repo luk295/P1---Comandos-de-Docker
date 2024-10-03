@@ -48,19 +48,18 @@ Co comando `docker stats` , vexo os recursos utilizados de todos os contenedores
 
 Ai pode verse a RAM utilizada e o porcentaxe que representa.
 ### 9. Cómo fixeches para clonar o repositorio
-
+Con `git clone https://github.com/luk295/P1---Comandos-de-Docker.git`
 ### 10. Cómo engades o arquivo readme2.md
+Entro no repositorio clonado con `cd`, e dende dentro creo como un arquivo de texto o arquivo readme2.md. Os pasos foron: 
+```
+echo "Mi primera frase readme" > readme2.md
+git add readme2.md
+git commit -m "mensaje"
+git push
+```
 ### 11. Os pasos a seguir para subir o arquivo que estás editando e o arquivo readme2.md
+Podo facer o mesmo que o **paso 10** ou mediante o **Virtual Studio Code**, sendo esta ultima opcion a mais sinxela xa que so e darlle ao boton de commit e sincronizar.
 ### 12. Cómo comprobarías que existen diferencias entre o teu repositorio local e o remote.
+...
 
 
-
-
-
-
-
-
-
-Crea un contenedor coo nome 'bono', pódes facer ping entre os contenedores?
- Para iso, instalo o comando con 
-Agora 
